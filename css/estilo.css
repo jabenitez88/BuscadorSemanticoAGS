@@ -1,0 +1,133 @@
+/* 
+    Document   : newCascadeStyleSheet
+    Created on : 17-dic-2012, 9:12:02
+    Author     : Jose
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html, body {
+    top:0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif
+	
+}
+input, label {
+    
+} 
+
+a{
+	-webkit-transition: all .35s ease-out; 
+    -moz-transition: all .35s ease-out; 
+    -o-transition: all .35s ease-out;
+    transition: all .35s ease-out;	
+}
+p{ word-wrap: break-word !important;}
+
+.fichas{word-wrap: break-word !important; width:1024px;}
+
+.item100{width:100%;float:left;}
+
+#selectorBuscador{width:100%;float:left;background:#143A56;}
+#selectorBuscador ul{list-style:none;}
+#selectorBuscador ul li{display:inline;margin-left:10px;margin-right:10px;font-weight:bold;}
+#selectorBuscador a{text-decoration:none;color:#999;}
+#selectorBuscador a:hover{color:#E0E0E0;}
+.activo{color:#E0E0E0 !important;}
+
+#contenedor-formulario {
+    width: 1024px;
+    margin:0 auto;
+}
+#resultados {
+    width: 1024px;
+
+    margin:0 auto;
+    padding: 10px;
+
+    white-space: pre;
+	position:relative;
+
+	
+}
+#respuesta {
+    width: 90%;
+    padding: 10px;
+}
+
+
+
+.nuevaObra-0{background:#999;width:100%;float:left;position:relative;padding: 10px;border: 1px dashed #000;margin-top:10px;}
+.nuevaObra-1{background:#ccc;width:100%;float:left;position:relative;padding: 10px;border: 1px dashed #000;margin-top:10px;}
+
+
+
+
+
+/*
+
+	
+	ESTILO DE GOOGLE
+
+
+*//* div container containing the form  */
+#searchContainer {
+    margin:20px;
+}
+ 
+/* Style the search input field. */
+#textoBusqueda{
+    float:left;
+    width:450px;
+    height:27px;
+    line-height:27px;
+    text-indent:10px;
+    font-family:arial, sans-serif;
+    font-size:1em;
+    color:#333;
+    background: #fff;
+    border:solid 1px #d9d9d9;
+    border-top:solid 1px #c0c0c0;
+    
+}
+ 
+/* Syle the search button. Settings of line-height, font-size, text-indent used to hide submit value in IE */
+#submit {
+	-webkit-transition: all .35s ease-out; 
+    -moz-transition: all .35s ease-out; 
+    -o-transition: all .35s ease-out;
+    transition: all .35s ease-out;	
+    cursor:pointer;
+    width:100px;
+    height: 31px;
+    
+    font-size:15px;
+    
+    color: #fff; 
+    background: #143A56;
+    border: 1px solid #143A56;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	margin-left:40px !important;
+}
+/* Style the search button hover state */
+#submit:hover {
+    background: #357AE8;
+    border: 1px solid #2F5BB7;
+}
+/* Clear floats */
+.fclear {clear:both}
+
+input[type=text], textarea {
+  -webkit-transition: all .35s ease-out; 
+    -moz-transition: all .35s ease-out; 
+    -o-transition: all .35s ease-out;
+    transition: all .35s ease-out;
+  outline: none;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow:0 0 5px #357AE8;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
